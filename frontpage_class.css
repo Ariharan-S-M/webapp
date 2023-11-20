@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.center1{
+    text-align: center;
+}
+
+.login{
+    background: url(images/front_login.jpg);
+    border: 10px solid black;
+    width: 35%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 50px;
+}
+
+.button1{
+    width: 130px;
+    height: 22px;
+    border: 1px solid black;
+}
+
+.button2{
+    width: 120px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.fa_buttons{
+    width: 300px;
+    height: 50px;
+    background-color: aliceblue;
+}
+
+.unpw{
+    text-align: center;
+    width:75%;
+    border: 3px solid black;
+    margin: auto;
+    background-color: rgb(243, 237, 237);
+}
+
+.signup{
+    margin-top: 10px;
+    margin-left: 20%;
+    text-align: end;
+    margin: auto;
+}
+
+.frontbox{
+    text-align: center;
+    background-color: rgb(20, 115, 210);
+    width: 40%;
+    height: 30%;
+    margin: auto;
+    padding: 10px;
+}
+
+.frontbox_inner{
+    text-align: left;
+    background-color: white;
+}
+
+.loginphp{
+    text-align: center;
+    border: 2px solid black;
+    width: 35%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.apps{
+    float: left;
+    background-color: aliceblue;
+    width: 20%;
+    height: 695px;
+    text-align: center;
+    background: url(images/app_side.jpg);
+    background-size: cover;
+}
+
+.messages{
+    float: right;
+    background-color: antiquewhite;
+    width: 20%;
+    height: 695px;
+    text-align: center;
+    background: url(images/app_side.jpg);
+    background-size: cover;
+}
+
+.center{
+    float: left;
+    background-color: aliceblue;
+    background-size: cover;
+    width: 60%;
+    height: 695px;
+    text-align: center;
+}
+

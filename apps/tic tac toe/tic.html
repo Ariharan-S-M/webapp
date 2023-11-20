@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tic.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    
+    <div class="select">
+        <input type="text" placeholder="input 'x' or 'o'" id="input">
+    </div>
+    <div class="confirm">
+        <button onclick="con()">confirm</button>
+    </div>
+    <div class="box">
+        <div class="col_row">
+            <button class="sqre"  onclick="tac(0)"  id="demo"></button>
+            <button class="sqre"  onclick="tac(1)"  id="demo1"></button>
+            <button class="sqre"  onclick="tac(2)"  id="demo2"></button>
+            <button class="sqre"  onclick="tac(3)"  id="demo3"></button>
+            <button class="sqre"  onclick="tac(4)"  id="demo4"></button>
+            <button class="sqre"  onclick="tac(5)"  id="demo5"></button>
+            <button class="sqre"  onclick="tac(6)"  id="demo6"></button>
+            <button class="sqre"  onclick="tac(7)"  id="demo7"></button>
+            <button class="sqre"  onclick="tac(8)"  id="demo8"></button>
+        </div>
+        <div class="turn">
+            <p>Player 1's Turn</p><br>
+            <p class="player" id="ss"></p><br>
+            <p class="player" id="ss1"></p><br>
+            <p class="player" id="ss2"></p><br>
+            <p class="player" id="ss3"></p><br>
+            <p class="player" id="ss4"></p><br>
+            <p class="player" id="ss5"></p><br>
+            <p class="player" id="ss6"></p><br>
+            <p class="player" id="ss7"></p>
+        </div>
+    </div>
+    <div>
+        <p class ="results" id="aa"></p>
+        <p class ="results" id="aaa"></p>
+    </div>
+    <script src="tic.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: aliceblue;
+}
+
+.box{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col_row{
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+}
+
+.sqre{
+    border-radius: 1%;
+    background-color: #fff;
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.results{
+    font-size: 30px;
+    color:aqua;
+    text-align: center;
+}
+
+.turn{
+    font-size: 15px;
+    padding: 10px;
+    margin: 0px 0px 0px 170px;
+    display:grid;
+}
