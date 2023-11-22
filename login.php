@@ -31,7 +31,7 @@
         echo "An error occurred: " . $e->getMessage();
     }
   $information = file('user_information.txt');
-  for($i=0; $i<$lineCount; $i=$i+5)
+  for($i=0; $i<$lineCount; $i=$i+6)
   {
     if(substr($information[$i], 0, -1) == $name2 && substr($information[$i+1], 0, -1) == $password2)
     {
