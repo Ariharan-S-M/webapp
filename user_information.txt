@@ -1,12 +1,6 @@
 ari
 blue
-2006-02-20
+2023-11-15
 ari@gmail.com
 male
--
-haran
-blue1
-2011-07-21
-haran@gmail.com
-female
--
+1.0

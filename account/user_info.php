@@ -22,16 +22,64 @@
                   {
                     echo "";
                   }
-                  elseif(substr($information[$count+4], 0, -1) == "male")
+                  elseif(substr($information[$count+4], 0, -1) == "male" && substr($information[$count+5], 0, -1) == "-" . "." . $count)
                   {
                     ?>
                     <img src="../images/male.jpg" width="150" height="150">
                     <?php
                   }
-                  elseif(substr($information[$count+4], 0, -1) == "female")
+                  elseif(substr($information[$count+4], 0, -1) == "female" && substr($information[$count+5], 0, -1) == "-" . "." . $count)
                   {
                     ?>
                   <img src="../images/female.jpg" width="150" height="150">
+                  <?php
+                  }
+                  elseif(substr($information[$count+5], 0, -1) == 1 . "." . $count)
+                  {
+                    ?>
+                  <img src="../images/dp's/dp1.jpg" width="150" height="150">
+                  <?php
+                  }
+                  elseif(substr($information[$count+5], 0, -1) == 2 . "." . $count)
+                  {
+                    ?>
+                  <img src="../images/dp's/dp2.jpg" width="150" height="150">
+                  <?php
+                  }
+                  elseif(substr($information[$count+5], 0, -1) == 3 . "." . $count)
+                  {
+                    ?>
+                  <img src="../images/dp's/dp3.jpg" width="150" height="150">
+                  <?php
+                  }
+                  elseif(substr($information[$count+5], 0, -1) == 4 . "." . $count)
+                  {
+                    ?>
+                  <img src="../images/dp's/dp4.jpg" width="150" height="150">
+                  <?php
+                  }
+                  elseif(substr($information[$count+5], 0, -1) == 5 . "." . $count)
+                  {
+                    ?>
+                  <img src="../images/dp's/dp5.jpg" width="150" height="150">
+                  <?php
+                  }
+                  elseif(substr($information[$count+5], 0, -1) == 6 . "." . $count)
+                  {
+                    ?>
+                  <img src="../images/dp's/dp6.jpg" width="150" height="150">
+                  <?php
+                  }
+                  elseif(substr($information[$count+5], 0, -1) == 7 . "." . $count)
+                  {
+                    ?>
+                  <img src="../images/dp's/dp7.jpg" width="150" height="150">
+                  <?php
+                  }
+                  elseif(substr($information[$count+5], 0, -1) == 8 . "." . $count)
+                  {
+                    ?>
+                  <img src="../images/dp's/dp8.jpg" width="150" height="150">
                   <?php
                   }
                   ?>
@@ -65,11 +113,10 @@
               <br>
             </div>
         </div>
-        <?php
-          if(substr($information[$count+4], 0, -1) == "male")
-          {
-            echo "";
-          }
-        ?>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="../frontapp.html">
+          <button>Go back to Home page</button>
+        </a>
     </body>
 </html>
