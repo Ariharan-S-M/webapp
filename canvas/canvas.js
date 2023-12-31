@@ -36,7 +36,7 @@ var mouse = {
 }
 
 var maxRadius = 200;
-var mouseDistance = 50;
+let mouseDistance = 50;
 var colorArray = [
     '#F4110B',
     '#BC2ED1',
@@ -86,8 +86,8 @@ function Circle(x, y, dx, dy, radius)
         }
         this.x += this.dx;
         this.y += this.dy;
-        if(mouse.x - this.x < mouseDistance && mouse.x - this.x > -mouseDistance
-            && mouse.y - this.y < mouseDistance && mouse.y - this.y > -mouseDistance)
+        if((mouse.x - this.x) < mouseDistance && (mouse.x - this.x) > -mouseDistance
+            && (mouse.y - this.y) < mouseDistance && (mouse.y - this.y) > -mouseDistance)
         {
             if(this.radius < maxRadius)
             this.radius += 0.3;
@@ -109,7 +109,7 @@ for(var i=0; i<150; i++)
     var y = Math.random() * (window.innerHeight - radius*2) + radius;
     var dx = (Math.random() - 0.5) * 2;
     var dy = (Math.random() - 0.5) * 2;
-    circleArray.push(new Circle(x, y, dx, dy, radius))
+    circleArray.push(new Circle(x, y, dx, dy, radius));
 }
 
 function animate(){

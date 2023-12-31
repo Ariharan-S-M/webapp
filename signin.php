@@ -93,6 +93,9 @@
     fwrite($file, $gender . "\n");
     fwrite($file, "-" . "\n");
     fclose($file);
+    $file2 = fopen('apps/pingpong/pingpong.txt', 'a');
+    fwrite($file2, "\n");
+    fclose($file2);
     ?>
     <div class="loginphp">
       <p>You have been successfully signed in, go to login page to continue</p>

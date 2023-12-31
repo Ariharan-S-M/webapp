@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="canvas.css">
+    <title>Canvas</title>
+</head>
+<body style="background-color: aliceblue;">
+    <div class="rules" id="rules">
+        <div class="inside">
+            <div></div>
+            <h1>Welcome to game Aircraft-0cl</h1>
+            <h2>Game rules </h2>
+            <h2>Move left: A</h2>
+            <h2>Move right: D</h2>
+            <h2>Shoot: left-click</h2>
+            <br><br>
+            <button onclick="start()">Start Game</button>
+            <br>
+        </div><br>
+    </div>
+    <div class="game" id="game">
+    <img src="../../images/plane.jpg" id="image1" style="display: none;">
+    <canvas style="background-color: black; position: absolute;" id="canvas1"></canvas>
+    <h1 style="position: absolute; color: aliceblue;" id="score">Score: 0</h1>
+    <audio id="myAudio1" src="../../audio/blast1.mp3"></audio>
+    <audio id="myAudio2" src="../../audio/plane-falling-81681.mp3"></audio>
+    </div>
+    <script src="1.js"></script>
+</body>
+</html>

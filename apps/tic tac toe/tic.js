@@ -2,14 +2,13 @@ let count=0;
 let n=0;
 let pla=0;
 let array = ["demo", "demo1", "demo2", "demo3", "demo4", "demo5", "demo6", "demo7", "demo8"];
-let pl = ["ss", "ss1", "ss2", "ss3", "ss4", "ss5", "ss6", "ss7"];
 let xo=[2, 2, 2, 2, 2, 2, 2, 2, 2];
 function tac(q){
     if(n%2==0){
     document.getElementById(array[q]).innerHTML = "x";
     document.getElementById(array[q]).disabled = true;
     xo[q]=1;
-    document.getElementById(pl[pla]).innerHTML = "Player 2's Turn";
+    document.getElementById('ss').innerHTML = "Player 2's Turn";
     pla++;
     count++;
     }
@@ -17,7 +16,7 @@ function tac(q){
         document.getElementById(array[q]).innerHTML = "o";
         document.getElementById(array[q]).disabled = true;
         xo[q]=0;
-        document.getElementById(pl[pla]).innerHTML = "Player 1's Turn";
+        document.getElementById('ss').innerHTML = "Player 1's Turn";
         pla++;
         count++;
     }
